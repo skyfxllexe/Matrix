@@ -12,7 +12,7 @@ public:
 	Matrix<Type> operator*(Matrix<Type> obj);
 	Matrix<Type> operator-(Matrix<Type> obj);
 	Matrix<Type> operator+(Matrix<Type> obj);
-	Matrix<Type> operator!(); // осталось перегрузить
+	Matrix<Type> operator!(); // Г®Г±ГІГ Г«Г®Г±Гј ГЇГҐГ°ГҐГЈГ°ГіГ§ГЁГІГј
 	void operator=(Matrix<Type> obj);
 	void showMatrix();
 	void makeMatrixZero();
@@ -182,6 +182,7 @@ void Matrix<Type>::operator=(Matrix<Type> obj) {
 		
 	}
 }
+
 
 
 template <typename Type>
